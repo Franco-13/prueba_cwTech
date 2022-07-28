@@ -32,7 +32,7 @@ export const Bar = () => {
         />
         <label htmlFor="floatingInput">Palabra a invertir</label>
         <button className="btn btn-secondary ms-3" onClick={sendWord}>
-          Click
+          Enviar
         </button>
       </div>
     </nav>

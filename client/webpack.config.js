@@ -15,7 +15,7 @@ module.exports = {
     }),
     new webpack.DefinePlugin({
       "process.env": {
-        API: JSON.stringify("https://copywriteapp.herokuapp.com/"),
+        API: JSON.stringify("https://copywriteapp.herokuapp.com"),
       },
     }),
   ],
